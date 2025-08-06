@@ -1,0 +1,35 @@
+body {
+  justify-content: center;
+}
+
+.container {
+  padding: 30px;
+  width: 90%;
+  box-shadow: 0 0 10px rgba(237, 233, 233, 0.1);
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+button {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+} 
+
+a {
+  color: #41403d;
+}
