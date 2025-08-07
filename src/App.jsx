@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <EventProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/visitor-event-app">
         <Routes>
           <Route path="/" element={<VisitorPage />} />
           <Route path="/event" element={<EventPage />} />
